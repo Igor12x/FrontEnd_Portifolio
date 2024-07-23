@@ -7,10 +7,10 @@
 }
 
 body {
-    height: 100vh;
     background-color: #000000;
     color: #F6F6F6;
     font-family: "Montserrat", sans-serif;
+    font-weight: 400;
 }
 
 .destaque {
@@ -18,7 +18,7 @@ body {
 }
 
 .apresentacao {
-    margin: 10% 10%;
+    padding: 8% 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -86,6 +86,16 @@ body {
     background-color: #272727;
 }
 
+.rodape{
+    color: #000000;
+    background-color: #DB3324;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 24px;
+    text-align: center;
+    font-size: 1.0rem;
+
+}
 @media (max-width: 950px) {
     .apresentacao {
         margin: 8% 8%;
