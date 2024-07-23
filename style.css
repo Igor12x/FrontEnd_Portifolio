@@ -13,6 +13,22 @@ body {
     font-weight: 400;
 }
 
+.cabecalho{
+    padding: 2% 0% 0% 10%;
+}
+
+.cabecalho_menu {
+    display: flex;
+    gap: 38px;
+}
+
+.cabecalho_menu_link{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1.0rem;
+    color: #DB3324;
+}
+
 .destaque {
     color: #DB3324;
 }
